@@ -1,0 +1,38 @@
+
+a:visited {
+    color: red;
+}
+
+input:focus {
+
+    padding: 10px;
+    color: red;
+}
+input:nth-child(2n+1) {
+    outline: none;
+}
+
+/* pseudo Element */
+h2::after {
+    content: ".demo";
+    color: red;
+    font-size: 16px;
+}
+h2::before {
+    content: "-----";
+}
+p::first-letter {
+    /* background: red; */
+    font-size: 50px;
+}
+p::first-line {
+    background-color: rgb(104, 255, 179);
+}
+input::placeholder {
+    color: orange;
+}
+
+::selection {
+    color: #fff;
+    background: black;
+}
